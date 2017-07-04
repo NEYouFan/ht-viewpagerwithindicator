@@ -1,5 +1,5 @@
 ## HTViewPagerWithIndicator使用文档
-``HTViewPagerWithIndicator`是一个基于[SlidingTabLayout](http://developer.android.com/intl/zh-cn/samples/SlidingTabsBasic/src/com.example.android.common/view/SlidingTabLayout.html)和[ViewPager](https://developer.android.com/intl/zh-cn/reference/android/support/v4/view/ViewPager.html)的能够自定义滑动指示器视图的页面管理控件。根据[README](https://github.com/NEYouFan/ht-viewpagerwithindicator/blob/master/README.md)文档，基本了解了`HTViewPagerWithIndicator`的特点以及快速使用的方法。
+`HTViewPagerWithIndicator`是一个基于[SlidingTabLayout](http://developer.android.com/intl/zh-cn/samples/SlidingTabsBasic/src/com.example.android.common/view/SlidingTabLayout.html)和[ViewPager](https://developer.android.com/intl/zh-cn/reference/android/support/v4/view/ViewPager.html)的能够自定义滑动指示器视图的页面管理控件。根据[README](https://github.com/NEYouFan/ht-viewpagerwithindicator/blob/master/README.md)文档，基本了解了`HTViewPagerWithIndicator`的特点以及快速使用的方法。
 ### 1. 自定义控件属性设置
 * `htHorizontalBorderHeight`：`SlidingTabLayout`底部横向分割线的高度，可选，默认`0`；
 * `htHorizontalBorderColor`：`SlidingTabLayout`底部横向分割线的颜色，可选；
