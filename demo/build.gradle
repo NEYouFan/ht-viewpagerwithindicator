@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion COMPILE_SDK_VERSION as int
+    buildToolsVersion BUILD_TOOLS_VERSION as String
+
+    defaultConfig {
+        applicationId "com.example.htviewpagerwithindicator"
+        minSdkVersion MIN_SDK_VERSION as int
+        targetSdkVersion TARGET_SDK_VERSION as int
+        versionCode 1
+        versionName VERSION_NAME as String
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile "junit:junit:$rootProject.junitVersion"
+    compile project(':htviewpagerwithindicator')
+//    compile 'com.netease.hearttouch:ht-viewpagerwithindicator:0.0.3-SNAPSHOT'
+    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+}
+
+

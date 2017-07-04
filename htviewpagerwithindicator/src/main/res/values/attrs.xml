@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This source code is licensed under the MIT-style license found in the
+  ~ LICENSE file in the root directory of this source tree.
+  ~
+  -->
+
+<resources>
+    <declare-styleable name="HTViewPagerWithIndicator">
+        <!--底部分割线的高度-->
+        <attr name="htHorizontalBorderHeight" format="dimension"/>
+        <!--底部分割线的颜色-->
+        <attr name="htHorizontalBorderColor" format="color"/>
+        <!--滑动指示器的高度-->
+        <attr name="htIndicatorHeight" format="dimension"/>
+        <!--滑动时的一些偏移量-->
+        <attr name="htTabViewOffset" format="dimension"/>
+        <!--分割线的高度-->
+        <attr name="htVerticalDividerHeight" format="dimension"/>
+        <!--界面内初始显示的childView的数量,平分控件宽度-->
+        <attr name="htMaxVisibleViewCount" format="integer"/>
+
+        <!--滑动TabLayout的padding属性-->
+        <attr name="htTabLayoutPaddingTop" format="dimension"/>
+        <attr name="htTabLayoutPaddingLeft" format="dimension"/>
+        <attr name="htTabLayoutPaddingBottom" format="dimension"/>
+        <attr name="htTabLayoutPaddingRight" format="dimension"/>
+        <!--滑动TabLayout的背景色属性-->
+        <attr name="htTabLayoutBackground" format="reference|color"/>
+        <!--TabLayout的对齐位置,top(默认)或者bottom-->
+        <attr name="htTabLayoutGravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <!--Indicator指示器的对齐位置,top或者bottom(默认)-->
+        <attr name="htIndicatorGravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <!--Divider分割线的对齐位置,top或者bottom(默认)-->
+        <attr name="htHorizontalDividerGravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
