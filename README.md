@@ -59,4 +59,4 @@ compile 'com.netease.hearttouch:ht-viewpagerwithindicator:0.0.1'
 ```
 
 ## 许可证
-`HTRefreshRecyclerView` 使用 `MIT` 许可证，详情见 [LICENSE](https://github.com/NEYouFan/ht-viewpagerwithindicator/blob/master/LICENSE.txt) 文件。
+`HTViewPagerWithIndicator` 使用 `MIT` 许可证，详情见 [LICENSE](https://github.com/NEYouFan/ht-viewpagerwithindicator/blob/master/LICENSE.txt) 文件。
